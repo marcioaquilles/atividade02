@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0 auto;
+                margin-bottom: 20px;
+                width: 940px;
+                font-size: 16px;
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                text-indent: 1rem;
+            }
+
+            body > p {
+                margin-top: 2px;
+                text-indent: 15px;
+            }
+
+            p {
+                letter-spacing: 1px;
+                text-align: left;
+            }
+
+            .und-blue {
+                border-bottom: solid blue;
+                text-decoration: underline;
+            }
+
+            .ident {
+                text-indent: 4rem;
+                margin: 15px;
+            }
+
+            .green {
+                background-color: rgb(21, 206, 129);
+            }
+
+            .red {
+                background-color: red;
+            }
+
+            .blue {
+                background-color: blue;
+            }
+
+            .pink {
+                background-color: pink;
+            }
+
+            .around {
+                border: solid 0.2px;
+            }
+
+            figure > img {
+                width: 540px;
+                height: 480px;
+                margin: 10px 100px;
+            }
+
+            .img-covid > figure {
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .img-covid {
+                margin-bottom: 50px;
+            }
+        </style>
+        <title>Atividade 02</title>
+    </head>
+    <body>
+        <!-- 
+      Atividade 02
+
+1 - Transforme todo texto abaixo em um conteúdo HTML.
+Obs: Atente-se para os background`s e formatação do texto.
+Obs1: Todo o texto deve conter uma margin 15px para todos os lados
+Obs2: A imagem deve conter uma margin de 10px (cima e baixo) e 100 px (esquerda e direita) -->
+
+        <h1>COVID-19</h1>
+        <p>Definições sobre esse vírus...</p>
+        <p class="ident">
+            <b>COVID-19</b><sup>[nt 1]</sup> (<em>
+                do inglês:<strong>Coronavirus Disease 2019</strong>, em
+                português: <strong>Doença por Coronavírus – 2019</strong></em
+            >) é uma doença infeciosa causada pelo coronavírus da síndrome
+            respiratória aguda grave 2 <mark>(SARS-CoV-2)</mark>. Os sintomas
+            mais comuns são <u class="und-blue">febre</u>, tosse seca e cansaço.
+            Entre outros sintomas menos comuns estão dores musculares, dor de
+            garganta, dor de cabeça, congestão nasal, conjuntivite, perda do
+            olfato e do paladar e erupções cutâneas. Cerca de 80% das infeções
+            pelo <del>SARS-CoV-2</del> confirmadas têm sintomas ligeiros de
+            COVID-19 ou são assintomáticos, e a maioria recupera sem
+            sequelas.<sup>[2][8]</sup> No entanto, 15% das infeções resultam em
+            COVID-19 severa com
+            <span class="around">
+                necessidade de oxigénio e 5% são infeções muito graves que
+                necessitam de ventilação
+            </span>
+            assistida em ambiente hospitalar. Os casos mais graves podem evoluir
+            para pneumonia grave com
+            <mark class="green">insuficiência respiratória grave</mark>,
+            <mark class="red">septicémia</mark>,
+            <mark class="blue">falência de vários órgãos</mark> e
+            <mark class="pink">morte</mark>. Entre os sinais de agravamento da
+            doença estão a falta de ar, dor ou pressão no peito,
+            <del>dedos de tom azul ou perturbações na fala e no movimento</del>.
+            O agravamento pode ser súbito, ocorre geralmente durante a segunda
+            semana e requer atenção médica urgente.
+        </p>
+
+        <div class="img-covid">
+            <figure>
+                <img src="covid.png" alt="Virus SARS-CoV-2" />
+                <figcaption>
+                    <small
+                        >Endereço da imagem:
+                        <a
+                            href="https://pt.wikipedia.org/wiki/COVID-19#/media/Ficheiro:Novel_Coronavirus_SARS-CoV-2.jpg"
+                            >https://pt.wikipedia.org/wiki/COVID-19#/media/Ficheiro:Novel_Coronavirus_SARS-CoV-2.jpg</a
+                        >
+                    </small>
+                </figcaption>
+            </figure>
+        </div>
+
+        <p>
+            Mais informações acessar o site:
+            <a href="https://pt.wikipedia.org/wiki/COVID-19."
+                >https://pt.wikipedia.org/wiki/COVID-19.</a
+            >
+        </p>
+    </body>
+</html>
